@@ -42,3 +42,5 @@ Relasi terdapat pada tabel orders yang menghubungkan customers dan products mela
 | POST   | /api/products      | Menambahkan produk baru         |
 | PUT    | /api/products/{id} | Mengupdate produk               |
 | DELETE | /api/products/{id} | Menghapus produk                |
+
+link vidio: https://youtu.be/NGur0W285I8?si=w3y_tk8axkzw8lxa
