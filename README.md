@@ -24,15 +24,21 @@ Relasi terdapat pada tabel orders yang menghubungkan customers dan products mela
 
 ##  Cara Instalasi & Menjalankan Project
 
-1. Clone repository ini atau download project
-2. Buka project di Visual Studio
-3. Pastikan PostgreSQL sudah aktif
-4. Atur connection string di file `appsettings.json`:
-{
-  "ConnectionStrings": {
-    "DefaultConnection": "Host=localhost;Port=5432;Database=TOKO_DB;Username=postgres;Password=101005"
-  }
-}
+1. Install Software yang Dibutuhkan Sebelum menjalankan project, pastikan sudah menginstall: Visual Studio Code .NET SDK
+2. Buka VS Code Klik: File → Open Folder, Pilih folder project ASP.NET Core
+3. lalu buat folder dan juga class sesuai dengan kebutuhan projek kita
+4. jangan lupa untuk menyeting projek kita agar tersambung ke database yaitu pada settinga json dengan menambahkan nama db yang telah dibuat dan juga pw dari db
+5. lalu run dengen mengklik tombol warna hijau berbentuk segitika miring https
+6. setelah itu maka akan terbuka link https swagger dari projek yang sudh dibuat 
+
+## cara import database
+1. Buka pgAdmin
+2. Login ke server PostgreSQL
+3. Klik kanan Databases Pilih Create → Database
+Isi nama database (misal: TOKO_DB)
+Import file .sql
+4. Klik database yang tadi dibuat Klik: Tools → Query Tool Klik ikon folder (Open File) Pilih file
+database.sql Klik tombol Execute 
 
 ##  Daftar Endpoint API
 | Method | URL                | Keterangan                      |
